@@ -1,8 +1,8 @@
 package me.dri.email.EmailSender.infra;
 
-import me.dri.email.EmailSender.adapters.GmailSenderGateway;
-import me.dri.email.EmailSender.exception.ContentIsEmptyException;
-import me.dri.email.EmailSender.exception.FastMailException;
+import me.dri.email.EmailSender.entities.adapters.GmailSenderGateway;
+import me.dri.email.EmailSender.entities.exception.ContentIsEmptyException;
+import me.dri.email.EmailSender.entities.exception.FastMailException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;

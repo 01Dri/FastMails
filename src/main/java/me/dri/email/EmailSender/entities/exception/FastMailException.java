@@ -1,4 +1,4 @@
-package me.dri.email.EmailSender.exception;
+package me.dri.email.EmailSender.entities.exception;
 
 
 public class FastMailException extends  RuntimeException {

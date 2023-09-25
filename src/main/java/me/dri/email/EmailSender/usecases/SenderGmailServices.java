@@ -1,8 +1,8 @@
-package me.dri.email.EmailSender.services;
+package me.dri.email.EmailSender.usecases;
 
-import me.dri.email.EmailSender.adapters.GmailSenderGateway;
-import me.dri.email.EmailSender.core.IGmailSender;
-import me.dri.email.EmailSender.exception.ContentIsEmptyException;
+import me.dri.email.EmailSender.entities.adapters.GmailSenderGateway;
+import me.dri.email.EmailSender.entities.adapters.IGmailSender;
+import me.dri.email.EmailSender.entities.exception.ContentIsEmptyException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

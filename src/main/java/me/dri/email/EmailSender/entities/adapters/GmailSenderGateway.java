@@ -1,4 +1,4 @@
-package me.dri.email.EmailSender.adapters;
+package me.dri.email.EmailSender.entities.adapters;
 
 public interface GmailSenderGateway {
 

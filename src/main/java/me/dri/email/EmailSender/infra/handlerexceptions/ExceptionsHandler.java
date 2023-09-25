@@ -1,9 +1,9 @@
-package me.dri.email.EmailSender.exception.handler;
+package me.dri.email.EmailSender.infra.handlerexceptions;
 
 
-import me.dri.email.EmailSender.exception.ContentIsEmptyException;
-import me.dri.email.EmailSender.exception.FastMailException;
-import me.dri.email.EmailSender.exception.entities.ExceptionResponse;
+import me.dri.email.EmailSender.entities.exception.ContentIsEmptyException;
+import me.dri.email.EmailSender.entities.exception.FastMailException;
+import me.dri.email.EmailSender.entities.exception.entities.ExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

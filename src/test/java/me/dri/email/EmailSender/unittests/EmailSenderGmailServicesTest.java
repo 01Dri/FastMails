@@ -1,9 +1,9 @@
 package me.dri.email.EmailSender.unittests;
 
-import me.dri.email.EmailSender.adapters.GmailSenderGateway;
+import me.dri.email.EmailSender.entities.adapters.GmailSenderGateway;
 import me.dri.email.EmailSender.entities.Email;
-import me.dri.email.EmailSender.exception.ContentIsEmptyException;
-import me.dri.email.EmailSender.services.SenderGmailServices;
+import me.dri.email.EmailSender.entities.exception.ContentIsEmptyException;
+import me.dri.email.EmailSender.usecases.SenderGmailServices;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

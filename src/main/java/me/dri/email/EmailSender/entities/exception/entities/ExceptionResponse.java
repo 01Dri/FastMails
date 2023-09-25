@@ -1,4 +1,4 @@
-package me.dri.email.EmailSender.exception.entities;
+package me.dri.email.EmailSender.entities.exception.entities;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package me.dri.email.EmailSender.config;
+package me.dri.email.EmailSender.infra.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
