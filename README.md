@@ -8,6 +8,3 @@ O projeto conta com alguns simples testes unitários, você rodar os testes segu
 **Para rodar os testes unitários com maven**
 ```bash
 mvn test
-
-
-
