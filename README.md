@@ -14,4 +14,10 @@ De maneira simples, o serviço é uma API, para utiliza-lá, basta acessar o end
 
 Agora é preciso enviar um body na request da API, o formato deve ser em JSON, seguindo essa estrutura:
 ![Exemplo](https://images2.imgbox.com/cf/0c/bg0A2v4N_o.png)
+E prontinho, o email vai chegar rapidinho na caixa de mensagens do seu destinatário!
 
+## Documentação
+A API conta com documentação automatizada graças a tecnologia da OpenAPI - Swagger, para entender melhor e até mesmo poder testar a aplicação, basta acessar esse endpoint
+**http://localhost:8080/swagger-ui/index.html**
+
+![Exemplo](https://images2.imgbox.com/36/8c/G5vwzmBw_o.png)
