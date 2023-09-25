@@ -14,6 +14,7 @@ De maneira simples, o serviço é uma API, para utiliza-lá, basta acessar o end
 
 Agora é preciso enviar um body na request da API, o formato deve ser em JSON, seguindo essa estrutura:
 ![Exemplo](https://images2.imgbox.com/cf/0c/bg0A2v4N_o.png)
+
 E prontinho, o email vai chegar rapidinho na caixa de mensagens do seu destinatário!
 
 ## Documentação
