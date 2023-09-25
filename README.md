@@ -11,6 +11,7 @@ mvn test
 ```
 ## Como o projeto funciona
 De maneira simples, o serviço é uma API, para utiliza-lá, basta acessar o endpoint principal da API **localhost:8080/fastmail/v1/send**
+
 Agora é precisa enviar um body na request da API, o formato deve ser em JSON, seguindo essa estrutura:
 ![Exemplo](https://images2.imgbox.com/cf/0c/bg0A2v4N_o.png)
 
